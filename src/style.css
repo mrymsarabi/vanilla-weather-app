@@ -1,0 +1,73 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+i {
+  font-size: 22px;
+}
+
+.box {
+  width: 600px;
+  padding: 20px;
+}
+
+.city {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.date {
+  color: rgb(141, 141, 141);
+  font-weight: bold;
+}
+
+.clouds {
+  font-weight: 700;
+  color: rgb(99, 97, 97);
+}
+
+.degree {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.num {
+  font-weight: bold;
+}
+
+.unit {
+  font-weight: 700;
+}
+
+.midd {
+  display: block;
+  margin: 0 auto;
+}
+
+.back-color {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(137, 210, 253) 0%,
+    rgb(255, 241, 188) 90%
+  );
+}
+
+.buttn {
+  background-color: #ffd32d;
+}
+
+.btnColor {
+  background-color: #ffc802;
+}
+
+.small-cardd {
+  background-color: #ffd32d;
+}
+
+.deg {
+  color: gray;
+}
+
+.openLink {
+  text-decoration: none;
+}
