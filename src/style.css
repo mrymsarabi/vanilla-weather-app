@@ -35,8 +35,14 @@ i {
   font-weight: bold;
 }
 
-.unit {
-  font-weight: 700;
+.active {
+  text-decoration: none;
+  color: black;
+}
+
+.active:hover {
+  cursor: default;
+  color: black;
 }
 
 .midd {
