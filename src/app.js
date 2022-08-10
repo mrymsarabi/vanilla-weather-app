@@ -1,6 +1,12 @@
-function showDate() {
+function showIcon(weatherIcon) {
+  let icon = document.querySelector("#icon");
+  let src = `http://openweathermap.org/img/wn/${weatherIcon}.png`;
+  icon.innerHTML = `<img src="${src}">`;
+}
+
+function showDate(timestamp) {
   let dateText = document.querySelector("#date");
-  let date = new Date();
+  let date = new Date(timestamp);
   let dateDay = date.getDate();
   let days = [
     "Sunday",
@@ -69,7 +75,8 @@ function displayTempCity(response) {
   des.innerHTML = description;
 
   //date
-  showDate();
+  showDate(response.data.dt * 1000);
+  showIcon(response.data.weather[0].icon);
   clearText();
 }
 
