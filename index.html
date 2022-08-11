@@ -48,17 +48,19 @@
         <div class="row mb-3">
           <div class="col-6">
             <span id="icon" class="icon"></span>
-            <span class="degree" id="temp"></span>
-            <sup
-              ><a href="#" class="active" id="celsius-link">°C</a> |
-              <a href="#" id="fahrenheit-link">°F</a></sup
+            <span class="temperature-part"
+              ><span class="degree" id="temp"></span>
+              <span class="units"
+                ><a href="#" class="active" id="celsius-link">°C</a> |
+                <a href="#" id="fahrenheit-link">°F</a></span
+              ></span
             >
             <div class="clouds" id="description"></div>
           </div>
           <div class="col-6">
             Pressure: <span class="num" id="pressure"></span>
-            <br />Humidity:<span class="num" id="humidity"></span>
-            <br />Wind:<span class="num" id="wind"></span>
+            <br />Humidity:<span class="num" id="humidity"></span> <br />Wind
+            speed:<span class="num" id="wind"></span>
           </div>
         </div>
       </div>

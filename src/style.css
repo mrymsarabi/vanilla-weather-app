@@ -25,10 +25,24 @@ i {
   font-weight: 700;
   color: rgb(99, 97, 97);
 }
+.temperature-part {
+  position: absolute;
+}
 
 .degree {
-  font-size: 25px;
+  font-size: 32px;
   font-weight: 700;
+}
+
+.icon {
+  position: relative;
+  top: -2px;
+}
+
+.units {
+  position: relative;
+  top: -12px;
+  font-size: 14px;
 }
 
 .num {
